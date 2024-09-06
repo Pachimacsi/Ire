@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <title>Colegio IRE Rancagua</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Colegio IRE Rancagua" name="keywords">
+    <meta content="Pagina semi-oficial" name="description">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Favicon -->
-    <link href="img/ire/logo_ire.png" rel="icon">
+    <link href="img/logo_ire.png" rel="icon">
         
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,7 +34,7 @@
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3 d-flex align-items-center">
                 <a href="#" class="text-decoration-none">
-                    <img class="img-fluid rounded" src="img/ire/logo_ire.png" alt="">
+                    <img class="img-fluid rounded" src="img/logo_ire.png" alt="">
                 </a>
                 <div class="ml-3 text-left">
                     <a href="#" class="text-decoration-none">
@@ -70,13 +73,11 @@
 
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
-        <div class="row border-top px-xl-5">
-            <div class="col-lg-3 d-none d-lg-block">
-            </div>
+        <div class="row border-top d-flex justify-content-center">
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                     <a href="index.html" class="text-decoration-none d-flex align-items-center d-block d-lg-none">
-                        <img src="img/ire/logo_ire.png" style="width: 4rem; padding-right: 0.5rem;">
+                        <img src="img/logo_ire.png" style="width: 4rem; padding-right: 0.5rem;">
                         <div class="ml-2 text-left">
                             <h4 class="m-0">COLEGIO IRE</h4>
                             <h6 class="m-0">Instituto Regional de Educación</h6>
@@ -85,16 +86,16 @@
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                            <a href="about.html" class="nav-item nav-link">Historía</a>
-                            <a href="course.html" class="nav-item nav-link">Documentos</a>
-                            <a href="teacher.html" class="nav-item nav-link">Galería</a>
-                            <a href="blog.html" class="nav-link nav-item">Cuadro Directivo</a>
-                            <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
+                            <a href="documentos.html" class="nav-item nav-link">Documentos</a>
+                            <a href="galeria.html" class="nav-item nav-link">Galería</a>
+                            <a href="acle.html" class="nav-item nav-link">ACLE</a>
+                            <a href="cuadrodirectivo.html" class="nav-link nav-item">Cuadro Directivo</a>
+                            <a href="nosotros.html" class="nav-item nav-link">¿Quiénes somos?</a>
                         </div>
-                        <a class="btn btn-primary fab fa-instagram ml-auto d-none d-lg-block" href="https://www.instagram.com/comunicaciones_ire/" target="_blank"> </a>
+                    <!-- <a class="btn btn-primary fab fa-instagram ml-auto d-none d-lg-block" href="https://www.instagram.com/comunicaciones_" target="_blank"> </a> -->
                     </div>
                 </nav>
             </div>
@@ -124,7 +125,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/ire/diario.png" style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="img/diario.png" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h1 class="display-3 text-white mb-md-4">¡Cuatro decadas de nuestro Colegio!</h1>
@@ -133,7 +134,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/ire/fundadores2.jpeg" style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="img/fundadores2.jpeg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3"></h5>
@@ -157,12 +158,12 @@
     <!-- Carousel End -->
 
 
-    <!-- About Start -->
+    <!-- About
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/ire/colegio.jpg" alt="">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/colegio.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
@@ -170,14 +171,14 @@
                         <h1>Innovando en Educación</h1>
                     </div>
                     <p>Con la globalización y el cambio constante de la tecnología, nuestra unidad, ha ido implementando más recursos tecnológicos para un mejor desarrollo cognitivo de sus alumnos y que van acordes a los requerimientos de los tiempos: entre ellos: sala de computación básica y media, sala de sonido y amplificación, fotocopiadoras, equipo de sonido, proyectores multimedia, kínder con data show, etc.</p>
-                    <a href="about.html" class="btn btn-primary" target="_blank">Ver más</a>
+                    <a href="nosotros.html" class="btn btn-primary" target="_blank">Ver más</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    -->
 
-    <!-- Courses Start -->
+    <!-- NOTICIAS Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
@@ -185,9 +186,177 @@
                 <h1>Explora nuestras novedades</h1>
             </div>
             <div class="row">
+
+                <!--Noticia Comunicado Convocatoria Subcentros De Padres y Apoderados-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/ire/libroinfobiblio.png" alt="">
+                        <center><img class="img-fluid" style="width: 60%;" src="img/logo_ire.png" alt=""></center>
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5"  href="#modalConvocatoria01" data-bs-toggle="modal">Comunicado Convocatoria Subcentros De Padres y Apoderados</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>COMUNICADO CITACIÓN SUBCENTROS 10 de septiembre. <br>&nbsp; <small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal Comunicado Convocatoria Subcentros De Padres y Apoderados-->
+                <div class="modal fade" id="modalConvocatoria01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header" style="border: none;">
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <img src="img/noticias/Comunicado01.png" class="img-fluid mb-3" alt="Imagen 1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!--Noticia Salidas Pedagógicas-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/cipreses/IMG-20240816-WA0022.jpg" alt="">
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5"  href="#modalCipreses" data-bs-toggle="modal">Salidas Pedagógicas</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>Nos complace compartir con la comunidad el reciente viaje de nuestros estudiantes de 3° medio C, quienes tuvieron la oportunidad de realizar una enriquecedora visita a la Reserva Nacional “Río Los Cipreses”. <small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal Salidas Pedagógicas-->
+                <div class="modal fade" id="modalCipreses" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header" style="border: none;">
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <img src="img/noticias/Salida Pedagogica Reserva Rio los Cipreses.png" class="img-fluid mb-3" alt="Imagen 1">
+                        </div>
+                        <div class="modal-footer flex-column align-items-center" style="border: none;">
+                          <a class="btn btn-primary" href="galeria.html?showModal=modalCipresess" role="button">Ver Galeria</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!--Noticia Visita a Inacap Rancagua-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/inacap/IMG_20240809_153217.jpg" alt="">
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5"  href="#modalVisitaInacap" data-bs-toggle="modal">Visita a Inacap Rancagua</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>El pasado viernes 02 de agosto, estudiantes de 3ro y 4to Medio, acompañados por algunos padres, tuvieron la oportunidad de visitar las instalaciones de INACAP Sede Rancagua. <br>&nbsp; <small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal Visita a Inacap Rancagua-->
+                <div class="modal fade" id="modalVisitaInacap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header" style="border: none;">
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <img src="img/noticias/Visita a INACAP Rancagua.png" class="img-fluid mb-3" alt="Imagen 1">
+                        </div>
+                        <div class="modal-footer flex-column align-items-center" style="border: none;">
+                          <a class="btn btn-primary" href="galeria.html?showModal=modalVisitaInacap" role="button">Ver Galeria</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+    
+
+                <!--Noticia Charla Ley RPA-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/charla-ley/IMG_20240723_160826.jpg" alt="">
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5"  href="#ModalCharlaLey" data-bs-toggle="modal">Charla Ley RPA</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>El pasado 23 de julio, recibimos la visita del fiscal Jaime Lizama, quien ofreció una charla informativa a los estudiantes sobre la Ley de Responsabilidad Penal Adolescente y su relación con las drogas. <small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal Charla Ley RPA-->
+                <div class="modal fade" id="ModalCharlaLey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+            <div class="modal-header" style="border: none;">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/noticias/Charla ley RPA_00001.png" class="img-fluid mb-3" alt="Imagen 1">
+              <img src="img/noticias/Charla ley RPA_00002.png" class="img-fluid" alt="Imagen 2">
+            </div>
+            <div class="modal-footer flex-column align-items-center" style="border: none;">
+              <a class="btn btn-primary" href="galeria.html?showModal=modalSPA" role="button">Ver Galeria</a>
+            </div>
+          </div>
+        </div>
+                </div>
+
+                <!--Noticia Visita Agrosuper-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/agrosuper/IMG_20240717_100350.jpg" alt="">
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5" href="#modalVisitaAgrosuper" data-bs-toggle="modal">Visita a Agrosuper</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>El pasado 17 de julio, los estudiantes de 4° medio tuvieron la oportunidad de conocer de cerca a Agrosuper S.A. ubicada en Rosario. <br>&nbsp;<br>&nbsp;<small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--Modal Visita Agrosuper-->
+                <div class="modal fade" id="modalVisitaAgrosuper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                            <div class="modal-header" style="border: none;">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                    <img src="img/noticias/Visita a Agrosuper_00001.png" class="img-fluid mb-3" alt="Imagen 1">
+                    <img src="img/noticias/Visita a Agrosuper_00002.png" class="img-fluid" alt="Imagen 2">
+                     </div>
+                    <div class="modal-footer flex-column align-items-center" style="border: none;">
+                     <a class="btn btn-primary" href="galeria.html?showModal=modalVisitaAgrosuper" role="button">Ver Galeria</a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+                <!--Noticia proyecto infobiblioteca-->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/noticias/portadas/libroinfobiblio.png" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                             </div>
@@ -200,25 +369,52 @@
                         </div>
                     </div>
                 </div>
+                
+                <!--Noticia PDV-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/ire/pdv.png" alt="">
+                        <img class="img-fluid" src="img/noticias/portadas/pdv.png" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                             </div>
-                            <a class="h5" target="framename" href="docs/Alianza pdv.jpg">Alianza IRE-PDV</a>
+                            <a class="h5" href="#ModalPDV" data-bs-toggle="modal">Alianza IRE-PDV</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>Comunicado alianza con Preuniversitario Pedro de Valdivia.</h6>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>Comunicado alianza con Preuniversitario Pedro de Valdivia. <br>&nbsp;<br>&nbsp;</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Modal PDV-->
+                <div class="modal fade" id="ModalPDV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <img src="img/noticias/Alianza pdv.jpg" style="width: 100%;">
+                    </div>
+                </div>
+
+                <!--Noticia En Blanco
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="rounded overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/" alt="">
+                        <div class="bg-secondary p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                            </div>
+                            <a class="h5"  href="#modal" data-bs-toggle="modal">Titulo</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>Descripcion <small></small></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+
             </div>
         </div>
     </div>
-    <!-- Courses End -->
+    <!--NOTICIAS End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -241,17 +437,17 @@
                         <div class="col-md-6 mb-5">
                             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Accesos</h5>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Historia</a>
-                                <a class="text-white mb-2" href="course.html"><i class="fa fa-angle-right mr-2"></i>Documentos</a>
-                                <a class="text-white mb-2" href="teacher.html"><i class="fa fa-angle-right mr-2"></i>Galeria</a>
-                                <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Cuadro Directivo</a>
+                                <a class="text-white mb-2" href="nosotros.html"><i class="fa fa-angle-right mr-2"></i>Historia</a>
+                                <a class="text-white mb-2" href="documentos.html"><i class="fa fa-angle-right mr-2"></i>Documentos</a>
+                                <a class="text-white mb-2" href="galeria.html"><i class="fa fa-angle-right mr-2"></i>Galeria</a>
+                                <a class="text-white mb-2" href="cuadrodirectivo.html"><i class="fa fa-angle-right mr-2"></i>Cuadro Directivo</a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-1">
                             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Redes Sociales</h5>
                             <div class="d-flex justify-content-start mt-4">
                                 <a class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/p/Colegio-IRE-Rancagua-100086431215719/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square" href="https://www.instagram.com/comunicaciones_ire/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-square" href="https://www.instagram.com/comunicaciones_" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -274,8 +470,9 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+
+    <!-- Bootstrap JS (incluye Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
